@@ -12,8 +12,11 @@ How Build
  ```
  Once successfully start :+1: run below command from Rest Client or Postman.
   
- - Set authentication is http basic and username and password as user [ ![Alt text](/img/productlist.png?raw=true "ref image 1")]
- If you not set username and password then You will get error code 401/403 
+ - Set authentication is http basic and username and password as user   
+   If you not set username and password then You will get error code 401/403 
+   
+ ![Alt text](/img/productlist.png?raw=true "ref image 1") 
+
  
  **Product list  :**
  ```
@@ -42,7 +45,10 @@ How Build
  ```
  
  **Generate bill list  :**
- In Body contain itemid and quantity for product, item id get from above request.[Ref image 2]
+ In Body contain itemid and quantity for product, item id get from above request.
+ 
+ ![Alt text](/img/generatebill2.png?raw=true "ref image 1")
+ 
  ```
  Method : POST
  Content-Type : application/json
@@ -83,6 +89,7 @@ Output :
   ]
 }
 
-Output contain list of item with total price and service tax. [Ref image 3]
+Output contain list of item with total price and service tax. 
+![Alt text](/img/generatebill1.png?raw=true "ref image 2") 
  ```
  
