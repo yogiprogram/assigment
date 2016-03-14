@@ -39,7 +39,7 @@ public class CheckoutCard {
 	}
 
 	@RequestMapping(value = "/productlist", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
-	public HashMap<Integer, Product> getProductList(Principal principal) {
+	public HashMap<Integer, Product> getProductList() {
 		return listProduct;
 	}
 
