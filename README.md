@@ -46,8 +46,8 @@ How Build
  
  **Generate bill list  :**
  In Body contain itemid and quantity for product, item id get from above request.
- 
- ![Alt text](/img/generatebill2.png?raw=true "ref image 1")
+ ![Alt text](/img/generatebill1.png?raw=true "ref image 2") 
+
  
  ```
  Method : POST
@@ -64,6 +64,9 @@ How Build
 		"quantity":"2"
 	}
 ]
+
+ ```
+  ```
 Output : 
  {
   "orderNumber": "8dadbb95-5221-40fc-a70a-de8ea8e883d5",
@@ -92,4 +95,4 @@ Output :
 Output contain list of item with total price and service tax. 
 
  ```
- ![Alt text](/img/generatebill1.png?raw=true "ref image 2") 
+  ![Alt text](/img/generatebill2.png?raw=true "ref image 1")
