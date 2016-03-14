@@ -18,7 +18,6 @@ import org.springframework.web.bind.annotation.RestController;
 import com.billing.domain.OrderDetail;
 import com.billing.domain.Product;
 import com.billing.domain.SelectedItem;
-import com.billing.security.service.HomeService.HomeResponse;
 
 @RequestMapping("/rest")
 @RestController
