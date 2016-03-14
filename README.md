@@ -12,7 +12,7 @@ How Build
  ```
  Once successfully start :+1: run below command from Rest Client or Postman.
   
- - Set authentication is http basic and username and password as user [ ref image 1]
+ - Set authentication is http basic and username and password as user [ ![Alt text](/img/productlist.png?raw=true "ref image 1")]
  If you not set username and password then You will get error code 401/403 
  
  **Product list  :**
