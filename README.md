@@ -90,6 +90,6 @@ Output :
 }
 
 Output contain list of item with total price and service tax. 
-![Alt text](/img/generatebill1.png?raw=true "ref image 2") 
+
  ```
- 
+ ![Alt text](/img/generatebill1.png?raw=true "ref image 2") 
